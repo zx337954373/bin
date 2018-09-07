@@ -1,17 +1,14 @@
 
 
 
-在当前文件夹下简历passwd文件 用于存放密码或登录方式
+建立`~/.ssh/passwd`文件 用于存放密码或登录方式
 
 `Num:IP:Hostname:Port:way:User:password|key:UserOnServer:Explain`
-
+秘钥存放在 $HOME/.ssh/
 
 ### key
     - pk
     - passwd 
-
-秘钥存放在 $HOME/.ssh/
-
 
 例
 
@@ -24,3 +21,4 @@ sss
 ```sh
 sss  $UserOnServer 'COMMAND'
 ```
+
